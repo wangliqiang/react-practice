@@ -19,7 +19,7 @@ class Tabbar extends Component {
           hidden={hidden}
         >
           <TabBar.Item
-            title="Life"
+            title="首页"
             key="Life"
             icon={<div style={{
               width: '22px',
@@ -102,7 +102,7 @@ class Tabbar extends Component {
           <TabBar.Item
             icon={{ uri: 'https://zos.alipayobjects.com/rmsportal/asJMfBrNqpMMlVpeInPQ.svg' }}
             selectedIcon={{ uri: 'https://zos.alipayobjects.com/rmsportal/gjpzzcrPMkhfEqgbYvmN.svg' }}
-            title="My"
+            title="我的"
             key="my"
             selected={selectedTab === 'yellowTab'}
             onPress={() => {

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
-import Tabbar from './common/tabbar'
-
+import Tabbar from './common/tabbar';
 import store from './store'
 
 class App extends Component {
