@@ -1,7 +1,7 @@
-# coderiver
+# React-practice
 
 #### 项目介绍
-河码项目的 移动H5 端 `React` 实现。
+移动H5 端 `React` 实现。
 
 待开启~
 
