@@ -20,7 +20,7 @@ class Tabbar extends Component {
         >
           <TabBar.Item
             title="首页"
-            key="Life"
+            key="Home"
             icon={<div style={{
               width: '22px',
               height: '22px',
@@ -35,14 +35,14 @@ class Tabbar extends Component {
             }}
             />
             }
-            selected={selectedTab === 'blueTab'}
+            selected={selectedTab === 'homeTab'}
             badge={1}
             onPress={() => {
-              changeTabs('blueTab')
+              changeTabs('homeTab')
             }}
-            data-seed="logId"
+            data-seed="homeId"
           >
-            {this.renderContent('Life')}
+            {this.renderContent('Home')}
           </TabBar.Item>
           <TabBar.Item
             icon={
@@ -103,13 +103,13 @@ class Tabbar extends Component {
             icon={{ uri: 'https://zos.alipayobjects.com/rmsportal/asJMfBrNqpMMlVpeInPQ.svg' }}
             selectedIcon={{ uri: 'https://zos.alipayobjects.com/rmsportal/gjpzzcrPMkhfEqgbYvmN.svg' }}
             title="我的"
-            key="my"
-            selected={selectedTab === 'yellowTab'}
+            key="mine"
+            selected={selectedTab === 'mineTab'}
             onPress={() => {
-              changeTabs('yellowTab')
+              changeTabs('mineTab')
             }}
           >
-            {this.renderContent('My')}
+            {this.renderContent('Mine')}
           </TabBar.Item>
         </TabBar>
       </div>
